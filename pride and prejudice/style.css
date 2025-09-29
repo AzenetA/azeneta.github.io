@@ -1,0 +1,49 @@
+#logo{
+    width: 20%;
+    height: 20%;
+    margin: 10px;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(224, 203, 174);
+    font-family: cursive;
+
+}
+
+header{
+    background-color: rgb(228, 198, 203);
+    color:black;
+    padding-bottom: 20px;
+}
+
+#title{
+    display:inline;
+    font-size: 40px;
+}
+
+#links li{
+    display: inline;
+    padding: 15px;
+    border-right: 2px solid rgba(165, 42, 42, 0.26);
+}
+
+#links li:hover{
+    background-color: rgba(165, 42, 42, 0.26);
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 25px;
+    
+}
+
+img:hover{
+    transform: scale(2.1);
+}
+
+section{
+    padding: 20px;
+
+}
