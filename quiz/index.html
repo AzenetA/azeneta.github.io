@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+
+    <body>
+       <header id="title">
+         <h1>Quick Quiz</h1>
+       </header>
+       
+       <section>
+        <h2>Here is a silly quiz, you can try to do it as many times as you like! :)</h2>
+       </section>
+
+       <section>
+
+        <h3> 1) Who is this character? </h3><br>
+        <img src="images/q1.png" id="mike_pic">
+        <br>
+
+
+        <Form action="Action_Page.php" method="GET" target="_blank" >
+            <input type="radio" id="pooh" name="quiz" value="pooh">
+            <label for="pooh" >Winnie the Pooh</label><br>
+
+            <input type="radio" id="mike" name="quiz" value="mike">
+            <label for="mike" >Mike Wazowzki</label><br>
+
+
+            <input type="radio" id="mr" name="quiz" value="mr">
+            <label for="mr" >Mr. Incredible</label><br>
+        </Form>
+        <br>
+
+        <h3>2) What is your favorite ice cream flavor?</h3><br>
+
+        <form action="Action_Page.php" method="GET" target="_blank">
+
+            <label for="iceCream">IceCream flavor: </label><br>
+            <input type="text" id="iceCream" name="iceCream"><br>
+        </form>
+       
+        <br>
+        <h3>3) Choose two of your favorite Programming Languages </h3>
+
+            <Form action="Action_Page.php" method="GET" target="_blank" >
+                <fieldset>
+                    <legend>Languages</legend>
+                 <input type="checkbox" id="Python" name="python" value="python">
+                    <label for="python">Python</label>
+
+                    <input type="checkbox" id="C++" name="C++" value="C++">
+                 <label for="C++">C++</label><br>
+
+                 <input type="checkbox" id="html" name="html" value="html">
+                 <label for="html">HTML</label>
+
+                 <input type="checkbox" id="C" name="C" value="C">
+                    <label for="C">C</label>
+
+                </fieldset>
+            </Form>
+        <br>
+
+        <h3>4) Type your first name:</h3>
+
+            <form action="Action_page.php" method="GET" target="_blank">
+                <label for="firstName">First Name: </label><br>
+                <input type="text" id="firstName" name="firstName"><br>
+            </form>
+
+
+
+
+        <input type="submit" value="click to submit">
+
+
+       </section>
+
+   
+    </body>
+
+
+ 
+
+</html>

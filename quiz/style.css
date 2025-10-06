@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color:aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+section{
+    padding: 20px;
+
+}
+
+#mike_pic{
+    border: dashed black 2px;
+}
+
+#title{
+    display: inline
+    ;
+}
