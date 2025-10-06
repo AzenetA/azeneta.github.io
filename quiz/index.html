@@ -38,8 +38,19 @@
 
         <form action="Action_Page.php" method="GET" target="_blank">
 
-            <label for="iceCream">IceCream flavor: </label><br>
-            <input type="text" id="iceCream" name="iceCream"><br>
+            <input type="radio" id="chocolate" name="iceCream" value="chocolate">
+            <label for="chocolate" >Chocolate</label><br>
+
+            <input type="radio" id="vanilla" name="iceCream" value="vanilla">
+            <label for="vanilla" >Vanilla</label><br>
+
+
+            <input type="radio" id="strawberry" name="iceCream" value="strawberry">
+            <label for="strawberry" >Strawberry</label><br>
+
+            <input type="radio" id="pecan" name="iceCream" value="pecan">
+            <label for="pecan" >Pecan</label><br>
+
         </form>
        
         <br>
@@ -64,11 +75,24 @@
             </Form>
         <br>
 
-        <h3>4) Type your first name:</h3>
+        <h3>4) If you had super powers what would they be?</h3>
 
             <form action="Action_page.php" method="GET" target="_blank">
-                <label for="firstName">First Name: </label><br>
-                <input type="text" id="firstName" name="firstName"><br>
+                <fieldset>
+                    <legend>Powers</legend>
+                 <input type="checkbox" id="fly" name="fly" value="fly">
+                    <label for="fly">Be able to fly</label>
+
+                    <input type="checkbox" id="swim" name="swim" value="swim">
+                 <label for="swim">Be able to breathe under water</label><br>
+
+                 <input type="checkbox" id="teleport" name="teleport" value="teleport">
+                 <label for="teleport">Teleportation</label>
+
+                 <input type="checkbox" id="strength" name="strength" value="strength">
+                    <label for="strength">Super Strength</label>
+
+                </fieldset>
             </form>
 
 
