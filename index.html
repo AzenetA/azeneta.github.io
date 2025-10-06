@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+
+    <body>
+       <header id="title">
+         <h1>Quick Quiz</h1>
+       </header>
+       
+       <section>
+        <h2>Here is a silly quiz, you can try to do it as many times as you like! :)</h2>
+       </section>
+
+       <section>
+
+        <h3> 1) Who is this character? </h3><br>
+        <img src="images/q1.png" id="mike_pic">
+        <br>
+
+
+        <Form action="Action_Page.php" method="GET" target="_blank" >
+            <input type="radio" id="pooh" name="quiz" value="pooh">
+            <label for="pooh" >Winnie the Pooh</label><br>
+
+            <input type="radio" id="mike" name="quiz" value="mike">
+            <label for="mike" >Mike Wazowzki</label><br>
+
+
+            <input type="radio" id="mr" name="quiz" value="mr">
+            <label for="mr" >Mr. Incredible</label><br>
+        </Form>
+        <br>
+
+        <h3>2) What is your favorite ice cream flavor?</h3><br>
+
+        <form action="Action_Page.php" method="GET" target="_blank">
+
+            <input type="radio" id="chocolate" name="iceCream" value="chocolate">
+            <label for="chocolate" >Chocolate</label><br>
+
+            <input type="radio" id="vanilla" name="iceCream" value="vanilla">
+            <label for="vanilla" >Vanilla</label><br>
+
+
+            <input type="radio" id="strawberry" name="iceCream" value="strawberry">
+            <label for="strawberry" >Strawberry</label><br>
+
+            <input type="radio" id="pecan" name="iceCream" value="pecan">
+            <label for="pecan" >Pecan</label><br>
+
+        </form>
+       
+        <br>
+        <h3>3) Choose two of your favorite Programming Languages </h3>
+
+            <Form action="Action_Page.php" method="GET" target="_blank" >
+                <fieldset>
+                    <legend>Languages</legend>
+                 <input type="checkbox" id="Python" name="python" value="python">
+                    <label for="python">Python</label>
+
+                    <input type="checkbox" id="C++" name="C++" value="C++">
+                 <label for="C++">C++</label><br>
+
+                 <input type="checkbox" id="html" name="html" value="html">
+                 <label for="html">HTML</label>
+
+                 <input type="checkbox" id="C" name="C" value="C">
+                    <label for="C">C</label>
+
+                </fieldset>
+            </Form>
+        <br>
+
+        <h3>4) If you had super powers what would they be?</h3>
+
+            <form action="Action_page.php" method="GET" target="_blank">
+                <fieldset>
+                    <legend>Powers</legend>
+                 <input type="checkbox" id="fly" name="fly" value="fly">
+                    <label for="fly">Be able to fly</label>
+
+                    <input type="checkbox" id="swim" name="swim" value="swim">
+                 <label for="swim">Be able to breathe under water</label><br>
+
+                 <input type="checkbox" id="teleport" name="teleport" value="teleport">
+                 <label for="teleport">Teleportation</label>
+
+                 <input type="checkbox" id="strength" name="strength" value="strength">
+                    <label for="strength">Super Strength</label>
+
+                </fieldset>
+            </form>
+
+
+
+
+        <input type="submit" value="click to submit">
+
+
+       </section>
+
+   
+    </body>
+
+
+ 
+
+</html>
