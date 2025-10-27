@@ -1,0 +1,14 @@
+body{
+    background-color:lavender;
+    color:purple;
+    border:1px dashed black;
+    font-family: Courier;
+    font-size: medium;
+    align-items: center;
+}
+
+#title{
+    color: purple;
+    font-family: 'Courier New';
+    font: bold;
+}
